@@ -707,12 +707,13 @@ Main Banner Area CSS
   max-width: 1470px;
 }
 .main-banner-area.bg-two {
-  background-image: url(../img/ghjj.jpeg);
+  background-image: url(../img/dv1.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 550px;
+  height: 560px;
   padding-top: 0;
+  width: 70%;
 }
 .main-banner-area.bg-two::before {
   display: none;
