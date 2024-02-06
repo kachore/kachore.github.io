@@ -632,9 +632,12 @@
 width: 100%;
   }}
 
+ 
 @media only screen and (min-width: 268px) and (max-width: 991px) {
   .vc{
 margin-bottom: 15px;
+
+
   }}
 
 @media only screen and (min-width: 268px) and (max-width: 991px) {
