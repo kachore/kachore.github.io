@@ -37,6 +37,7 @@
   }
   .mean-container a.meanmenu-reveal {
     padding: 1px 0 0 0;
+    
   }
   .mean-container a.meanmenu-reveal span {
     display: block;
@@ -50,6 +51,7 @@
   .mean-container .mean-bar {
     background-color: unset;
     border-bottom: none;
+   color: #0b3588;
   }
   .mean-container .mean-nav {
     margin-top: 40px;
@@ -616,8 +618,8 @@
   }}
 @media only screen and (min-width: 268px) and (max-width: 991px) {
   .logo a img {
-    width: 48%;
-    height: 50%;
+    width: 52%;
+    height:48%;
   }}
 @media only screen and (min-width: 268px) and (max-width: 991px) {
   .dfo {

@@ -632,10 +632,26 @@ Navbar Area CSS
   }
   .main-responsive-nav .mean-container a.meanmenu-reveal {
     color: #111111;
+
   }
   .main-responsive-nav .mean-container a.meanmenu-reveal span {
-    background: #111111;
+    background: #0b3588;
+    width: 32px;
+    
   }
+
+  .main-responsive-nav .mean-container a.meanmenu-reveal {
+    background: white;
+    border: 1px solid  #0b3588;
+    padding-left: 7px;
+    padding-right: 4px;
+    border-radius: 8px;
+    padding-top: 7px;
+    padding-bottom: 4px;
+    margin-top: 5px;
+    
+  }
+
   .main-responsive-nav .logo {
     position: relative;
     width: 50%;
@@ -643,8 +659,8 @@ Navbar Area CSS
   }
   .navbar-area {
     background-color: #ffffff;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
   .main-navbar {
     display: none;
