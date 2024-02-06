@@ -607,6 +607,25 @@
     padding: 6px 0 0 0;
   }
 }
+/* Styles pour les grands écrans */
+@media screen and (min-width: 768px) {
+  .lire-plus {
+      display: inline-block;
+  }
+  .commencer {
+      display: none;
+  }
+}
+
+/* Styles pour les petits écrans */
+@media screen and (max-width: 767px) {
+  .lire-plus {
+      display: none;
+  }
+  .commencer {
+      display: inline-block;
+  }
+}
 
 @media only screen and (min-width: 268px) and (max-width: 991px) {
   .gb{
