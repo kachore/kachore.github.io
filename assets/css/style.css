@@ -69,6 +69,7 @@ body {
   margin: 0;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
+
 }
 .drapeau{
   width: 50px;
@@ -83,7 +84,7 @@ body {
 .nom-dg{
   text-align: center;
   font-weight: bold;
-  padding-top: 8px;
+  padding-top: 10px;
   font-size: 18px;
 }
 a {
@@ -2541,7 +2542,10 @@ FAQ Area CSS
 .faq-area .container {
   max-width: 1140px;
 }
-
+.io{
+  width: 96%;
+  height: 90%;
+}
 .faq-list-tab .tabs-list {
   padding-left: 0;
   list-style-type: none;

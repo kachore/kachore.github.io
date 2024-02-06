@@ -1,6 +1,6 @@
 jQuery(function ($) {
     'use strict';
-	
+	AOS.init();
 	// Header Sticky
 	$(window).on('scroll',function() {
 		if ($(this).scrollTop() > 120){  
@@ -15,6 +15,8 @@ jQuery(function ($) {
 	jQuery('.mean-menu').meanmenu({
 		meanScreenWidth: "991"
 	});
+
+
 
 	// Button Hover JS
 	$(function() {
