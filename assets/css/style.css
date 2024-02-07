@@ -225,7 +225,7 @@ This files table contents are outlined below>>>>>
 
   #hero .carousel-container {
     text-align: center;
-    top: 34px;
+    top: 64px;
   }
 }
 
@@ -251,7 +251,7 @@ This files table contents are outlined below>>>>>
 
 @media only screen and (min-width: 268px) and (max-width: 991px) {
   #hero .carousel-container{
-    top: -150px
+    top: 15px
   }}
 /*================================================
 Default CSS
