@@ -2,6 +2,10 @@ jQuery(function ($) {
     'use strict';
 	AOS.init();
 	// Header Sticky
+
+	
+
+
 	$(window).on('scroll',function() {
 		if ($(this).scrollTop() > 120){  
 			$('.navbar-area').addClass("is-sticky");

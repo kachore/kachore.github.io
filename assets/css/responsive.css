@@ -631,7 +631,10 @@
   .main-banner-area.bg-two{
 width: 100%;
   }}
-
+  @media only screen and (min-width: 268px) and (max-width: 991px) {
+    .bn{
+      text-align: center;
+    }}
  
 @media only screen and (min-width: 268px) and (max-width: 991px) {
   .vc{
