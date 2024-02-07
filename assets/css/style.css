@@ -65,12 +65,15 @@ This files table contents are outlined below>>>>>
 
 #hero {
   width: 100%;
-  height: 86vh;
+  height: 98vh;
   background-color: rgba(4, 12, 21, 0.8);
   overflow: hidden;
   position: relative;
 }
-
+.clients-image img.bata {
+  width: 50px; /* ajustez la largeur selon vos besoins */
+  height: auto; /* cette propriété maintiendra les proportions de l'image */
+}
 #hero .carousel,
 #hero .carousel-inner,
 #hero .carousel-item,
@@ -81,7 +84,10 @@ This files table contents are outlined below>>>>>
   left: 0;
   bottom: 0;
 }
-
+ .pat{
+  height: 40%;
+  width: 40%;
+}
 #hero .carousel-item {
   background-size: cover;
   background-position: top center;
@@ -746,7 +752,7 @@ Navbar Area CSS
   margin-top: 5px;
 }
 
-.navbar-area.is-sticky {
+.navbar-area {
   position: fixed;
   top: 0;
   left: 0;
@@ -2051,7 +2057,7 @@ Choose Area CSS
 
 .choose-image {
   position: relative;
-  margin-top: 45px;
+  margin-top: 25px;
 }
 .choose-image .video-btn {
   display: inline-block;
@@ -2066,12 +2072,13 @@ Choose Area CSS
   left: 45px;
   right: 0;
   margin: auto;
-  bottom: -40px;
+  top: 190px;
+  bottom: -30px;
   transform: translateY(-135%);
   text-align: center;
 }
 .choose-image .video-btn i {
-  font-size: 55px;
+  font-size: 50px;
   position: relative;
   top: 10px;
   left: 0;
@@ -2414,6 +2421,7 @@ Team Area CSS
 =================================================*/
 .team-area {
   background-color: #fafbfc;
+  margin-top: 40px;
 }
 .team-area.bg-color {
   background-color: #ffffff;

@@ -117,10 +117,13 @@ jQuery(function ($) {
 		$('.tab ul.tabs-list li').on('click', function (g) {
 			var tab = $(this).closest('.tab'), 
 			index = $(this).closest('li').index();
+			contact = $(this).closest('li').contact();
 			tab.find('ul.tabs-list > li').removeClass('current');
 			$(this).closest('li').addClass('current');
 			tab.find('.tab_content').find('div.tabs_item').not('div.tabs_item:eq(' + index + ')').slideUp();
+			tab.find('.tab_content').find('div.tabs_item').not('div.tabs_item:eq(' + contact + ')').slideUp();
 			tab.find('.tab_content').find('div.tabs_item:eq(' + index + ')').slideDown();
+			tab.find('.tab_content').find('div.tabs_item:eq(' + contact + ')').slideDown();
 			g.preventDefault();
 		});
 	})(jQuery);
